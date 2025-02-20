@@ -1,2 +1,2 @@
 RewriteEngine On
-RewriteRule ^answer$ answer.html [L]
+RewriteRule ^answer$ answer.txt [L]
