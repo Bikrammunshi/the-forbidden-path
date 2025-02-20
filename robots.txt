@@ -1,6 +1,0 @@
-User-agent: *
-Disallow: /hidden/
-
-*This page is for robots.txt which is used for crawling.
-
-/answer.txt
