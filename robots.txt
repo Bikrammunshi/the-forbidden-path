@@ -3,4 +3,4 @@ Disallow: /hidden/
 
 *This page is for robots.txt which is used for crawling.
 
-/answer.html  *try replacing the actual html name with this*
+/answer.txt
