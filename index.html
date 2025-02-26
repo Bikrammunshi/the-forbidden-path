@@ -16,6 +16,21 @@
             display: none;
         }
     </style>
+        <script>
+        // Extract the path from the URL
+        var path = window.location.pathname;
+
+        // Define a mapping of paths to HTML files
+        var routes = {
+            '/answer': '/answer.html',
+        };
+
+        // Check if the path exists in the routes mapping
+        if (routes[path]) {
+            // Redirect to the corresponding HTML file
+            window.location.replace(routes[path]);
+        } 
+   </script>
 </head>
 <body>
     <!-- Navigation Bar -->
