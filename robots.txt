@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /hidden/
+
+*This page is for robots.txt which is used for crawling.
+
+/answer  *try replacing the actual html name with this*

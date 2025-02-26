@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JD CTF</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 50px;
+        }
+        .container {
+            max-width: 600px;
+        }
+        #flag-section {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-success fixed-top">
+        <a class="navbar-brand" href="#">JD CTF</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#Home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Features">Scoreboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contact">Challenges</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+       <div class="jumbotron text-center" id="Home">
+        <h1 class="display-4">Welcome to JD CTF</h1>
+        <p class="lead">Hello there, came to solve another challenge???</p>
+        <a class="btn btn-success btn-lg" href="#Features" role="button">Show more</a>
+    </div>
+
+    <!-- Features Section -->
+    <div class="container" id="Features">
+        <p class="text-center text-success">
+            A whisper in the wires, a gate unseen,<br>
+            Where crawlers tread, and secrets convene,<br>
+            The rules inscribed, in cryptic, coded tongue, <br>
+            A garden's path, where only some are flung <br>
+            To char the bounds, where access must reside, <br>
+            And shape the search, where hidden truths abide. <br>
+            A delicate dance, of grand and of deny, <br>
+            The robot's riddle, reaching for the sky.</p>
+            <br>
+            <br>
+    </div>
+
+    <!-- Flag Section -->
+    <div id="flag-section">
+        <!-- Hero Section for Flag -->
+        <div class="jumbotron text-center">
+            <h1 class="display-4">Congratulations!!! You found the flag</h1>
+        </div>
+
+        <!-- Features Section for Flag -->
+        <div class="container">
+            <p class="text-center text-success">
+                jdctf{dis4ll0wed_but_d3lici0us}
+            </p>
+            <br>
+            <br>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center text-lg-start">
+        <div class="text-center p-3 bg-success text-white">
+        </div>
+    </footer>
+</body>
+</html>
